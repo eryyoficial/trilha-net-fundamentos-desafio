@@ -65,7 +65,7 @@ namespace DesafioFundamentos.Models
                 int contador = 1;
                 foreach (string item in veiculos)
                 {
-                    Console.WriteLine($"{contador}º - {item}");
+                    Console.WriteLine($"{contador}º Veículo: {item}");
                     contador++;
                 }
             }
